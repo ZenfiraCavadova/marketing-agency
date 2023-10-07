@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:" General Sans ",sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --primary: #3461FF;
+    --light: #fff;
+    --dark: #000;
+    --secondary-dark: rgba(0, 0, 0, 0.60);
+    --tertiaryy-dark:#252525;
+    --grey: #FAFAFA;
+    --secondary-grey: #AAA;
+}
+
+/* =========SPECIAL ELEMENTS============== */
+.btn {
+    border-radius: 70px;
+    background: var(--primary) ;
+    color: var(--light);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+.btn-primary{
+    width: 123px;
+    height: 52px;
+    padding: 16px 24px;
+    display: inline-block;
+}
+
+.btn-secondary{
+    width: 114px;
+    display: inline-block;
+    height: 60px;
+    padding: 20px 24px;
+}
+
+.btn-tertiary{
+    width: 120px;
+    background-color: transparent;
+    border: none;
+    color: var(--primary);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 133.333% */
+    text-decoration-line: underline;
+    text-transform: capitalize;
+}
+
+/*==============DESIGN================= */
+
+.navbar{
+    width: 80%;
+    height: 52px;
+    margin: 18px 100px;
+}
+
+.navbar .logo{
+    display: inline-block;
+}
+
+.navbar .logo img:first-child{
+    margin-right: 0;
+}
+
+.navbar .logo h1{
+    display: inline-block;
+    color: var(--dark);
+    font-family:" Helvetica";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2px;
+    text-transform: capitalize;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+}
+
+.navbar .menu-list{
+    display: inline-block;
+    margin-left: 88px;
+    margin-right: 474px;
+}
+
+
+.navbar .menu-list li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+
+.navbar .menu-list li>a{
+    display: inline-block;
+    color: var(--dark);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.header{
+    width: 80%;
+    height: 800px;
+    margin: 18px 100px;
+} 
+.header .header-head h1{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 490px;
+    color: var(--dark);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: General Sans Variable;
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120px; /* 139.535% */
+    text-transform: capitalize;
+}
+
+.header .header-head p{
+    width: 413px;
+    margin-left: 100px;
+    color:var(--secondary-dark);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: General Sans Variable;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+    text-transform: capitalize;
+}
+
+.header .header-head input{
+    width: 309px;
+    display: inline-block;
+    padding: 20px 18px;
+    border-radius: 37px;
+    border: none;
+    background: var(--grey);
+    margin: 50px 10px 50px 100px;
+    color: var(--secondary-grey);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: General Sans Variable;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.partners {
+    width: 80%;
+    height: 552px;
+    margin: 18px 100px;
+    background: var(--grey);
+}
+
+
+.partners .partners-head h2{
+    width: 280px;
+    display: inline-block;
+    margin: 78px 36px 90px 100px;
+    color: var(--dark);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.partners .partners-head p{
+    width: 413px;
+    display: inline-block;
+    color: var(--tertiaryy-dark);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: General Sans Variable;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    text-transform: capitalize;
+}
+
+.partners .partners-body .logos-one, .partners .partners-body .logos-two{
+    width: 1240px;
+    margin: 90px 100px;
+}
+
+.partners .partners-body .logos-one img,.partners .partners-body .logos-two img{
+    margin-right: 100px;
+
+}
+
+.partners .partners-body .logos-one img,.partners .partners-body .logos-two img:first-child{
+    margin-left: 20px;
+
+}
+
+
+.commitments{
+    width: 80%;
+    height: 520px;
+    padding: 103px 100px 107px 100px;
+    margin: 18px 100px;
+    position: relative;
+}
+
+
+.commitments .commitments-head{
+    width: 505px;
+    display: inline-block;
+    margin-right: 125px;
+   
+
+}
+.commitments .commitments-head .container div{
+    display: inline-block;
+    margin-right: 75px;
+    margin-bottom: 40px;
+    
+}
+
+
+.commitments .commitments-head .container div>h2{
+    color: var(--dark);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: General Sans Variable;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.commitments .commitments-head .container div>p{
+    width: 155px;
+    color: var(--secondary-dark);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: General Sans Variable;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.commitments .commitments-body{
+    height: 300px;
+    display: inline-block;
+    position: absolute;
+    left: 65%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+}
+
+.commitments .commitments-body h2{
+    width: 385px;
+    color: var(--dark);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.commitments .commitments-body p{
+    width: 610px;
+    color: var(--secondary-dark);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: General Sans Variable;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+    text-transform: capitalize;
+    margin-bottom: 42px;
+}
+
+.offers{
+    width: 80%;
+    height: 776px;
+    padding: 86px 100px 106px 100px;
+    margin: 18px 100px;
+    position: relative;
+}
+
+.offers .offers-head{ 
+    display: inline-block; 
+}
+
+.offers .offers-body{
+    display: inline-block;
+    position: absolute;
+    left: 65%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+.offers .offers-head h2{
+    width: 274px;
+    color: var(--dark);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.offers .offers-head p{
+    width: 499px;
+    color: var(--secondary-dark);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+    text-transform: capitalize;
+    margin-bottom: 46px;
+}
+
+.offers .offers-body .card{ 
+    display: inline-block;
+    margin-bottom: 80px; 
+    margin-right: 24px;
+}
+
+.offers .offers-body .card .card-body .card-title{
+    width: 179px;
+    color: var(--dark);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 24px;
+    margin-bottom: 7px;
+}
+
+.offers .offers-body .card .card-body .card-text{
+    width: 292px;
+    color: var(--secondary-dark);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    text-transform: capitalize;
+
+}
+
